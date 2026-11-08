@@ -107,7 +107,7 @@ def load_standards() -> dict:
         text = None
         try:
             req = urllib.request.Request(f"{VRS_BASE}{code}.vrs",
-                                         headers={"User-Agent": "se-regional-data/1.0"})
+                                         headers={"User-Agent": "se-open-bibles/1.0"})
             text = urllib.request.urlopen(req, timeout=30).read().decode("utf-8")
             cache.write_text(text, encoding="utf-8")
             fetched.append(code)

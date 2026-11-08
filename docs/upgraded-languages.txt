@@ -1,4 +1,4 @@
-Languages where se-regional-data offers MORE than language-sources.txt
+Languages where se-open-bibles offers MORE than language-sources.txt
 Generated from data/_pool/ (110 languages)
 
 === AUDIO + TEXT → AUDIO + TIMING + TEXT (72) ===

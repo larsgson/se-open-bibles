@@ -1,5 +1,5 @@
 # Language sources from the bibel-wiki / bcv-commons/bibles companion system.
-# Used to identify which languages se-regional-data offers exclusively
+# Used to identify which languages se-open-bibles offers exclusively
 # or with richer resources (see exclusive-languages.txt, upgraded-languages.txt).
 #
 # Categories:

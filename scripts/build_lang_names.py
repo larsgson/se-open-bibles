@@ -52,7 +52,7 @@ def fetch(url: str, cache: Path, offline: bool) -> bytes:
             sys.exit(f"[names] --offline but no cache at {cache}; run once online first")
         return cache.read_bytes()
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "se-regional-data/1.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": "se-open-bibles/1.0"})
         with urllib.request.urlopen(req, timeout=30) as r:
             data = r.read()
         cache.write_bytes(data)

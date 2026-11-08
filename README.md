@@ -1,4 +1,4 @@
-# se-regional-data
+# se-open-bibles
 
 Data pipeline that publishes Scripture Earth (`scriptureearth.org`) content as the **PKF source** in [`bcv-commons/bibles`](https://github.com/bcv-commons/bibles) — the discovery layer that indexes Bible content across PKF, DBT, and helloAO. Pulls Proskomma `.pkf` archives, catalogs, fonts, audio timing data, and per-language video/audio manifests, then publishes the result both as GitHub Releases and live on Cloudflare R2 at `cdn.bibel.wiki/pkf/`.
 
